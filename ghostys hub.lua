@@ -282,7 +282,7 @@ local function createGUI()
     end)
 
     createSettingsButton(settingsTabFrame, "Infinite Yield", function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source'))()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
     end)
 
     createSettingsButton(settingsTabFrame, "System Broken", function()
