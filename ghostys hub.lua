@@ -196,7 +196,7 @@ local function createGUI()
             if gameProcessed then return end
 
             -- Toggle rapid movement on pressing the "C" key
-            if input.KeyCode == Enum.KeyCode.Q then
+            if input.KeyCode == Enum.KeyCode.C then
                 rapidEnabled = not rapidEnabled
             end
         end
