@@ -292,10 +292,10 @@ Services.RunService.Heartbeat:Connect(function()
            PrimaryPart.AssemblyAngularVelocity = Vector3.new(0, 0, 0)
            PrimaryPart.AssemblyLinearVelocity = Vector3.new(0, 0, 0)
            PrimaryPart.CFrame = LastPosition
-       end
-   end)
-end)  
-            
+          end
+      end)
+  end)
+end)           
     -- New Tab: Settings
     local settingsTabFrame = createTab("Admin n shit")
 
